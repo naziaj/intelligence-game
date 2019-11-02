@@ -4,7 +4,7 @@ function Check() {
     let name = document.querySelector("input").value;
     let random = Math.floor(Math.random() * intelligences.length);
     // alert( "Dear " + name + " you are "+ intelligences[random]);
-    console.log("Dear " + name + " you are " + intelligences[random] + "!")
+    alert("Dear " + name + " you are " + intelligences[random] + "!")
 }
 
 
